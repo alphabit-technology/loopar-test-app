@@ -1,0 +1,13 @@
+{
+  "App": {
+    "loopar-test-app": {
+      "local_app": 0,
+      "git_repo": "",
+      "name": "loopar-test-app",
+      "description": "Loopar Test App",
+      "version": "0.0.1",
+      "autor": "mail@mail.com",
+      "info": "Loopar Test App"
+    }
+  }
+}
