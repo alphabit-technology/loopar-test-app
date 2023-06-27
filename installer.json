@@ -1,13 +1,67 @@
 {
   "App": {
     "loopar-test-app": {
-      "local_app": 0,
-      "git_repo": "",
+      "id": 87,
+      "type": "Desk App",
+      "menu": "default",
+      "has_footer": 0,
+      "has_copyright": 0,
+      "footer": "\"\"",
+      "copyright": "\"\"",
+      "git_repo": "https://github.com/quantumbitcore/loopar-test-app.git",
+      "repository": "",
+      "github_user": "",
+      "github_pass": "",
       "name": "loopar-test-app",
       "description": "Loopar Test App",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "autor": "mail@mail.com",
       "info": "Loopar Test App"
+    }
+  },
+  "Module": {
+    "Test App": {
+      "name": "Test App",
+      "description": "Test App",
+      "app_name": "loopar-test-app",
+      "module_group": "modules",
+      "icon": "fa fa-box",
+      "in_sidebar": 1
+    },
+    "test-app": {
+      "id": 194,
+      "name": "Test App",
+      "description": "Test App",
+      "app_name": "loopar-test-app",
+      "module_group": "modules",
+      "icon": "fa fa-box",
+      "in_sidebar": 1,
+      "deleted_at": null
+    }
+  },
+  "Document": {
+    "Test App View": {
+      "id": 325,
+      "name": "Test App View",
+      "module": "Test App",
+      "type": "Page",
+      "is_single": 1,
+      "is_static": 0,
+      "doc_structure": "[{\"element\":\"panel\",\"data\":{\"name\":\"panel5_el1010715007735\",\"id\":\"panel166_el225438290309\"},\"elements\":[{\"element\":\"row\",\"data\":{\"name\":\"row19_el726373123818\",\"id\":\"row176_el31773424502\"},\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col23_el358788135715\",\"id\":\"col821_el48531812057\"},\"elements\":[{\"element\":\"markdown\",\"is_writable\":false,\"data\":{\"name\":\"markdown4_el29090081456\",\"id\":\"markdown1384_el505740038464\",\"label\":\"Markdown5\",\"value\":\"<h1>Welcome to Test App</h1>\"},\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col22_el127423895687\",\"id\":\"col822_el1530185846880\"},\"elements\":[{\"element\":\"markdown\",\"is_writable\":false,\"data\":{\"name\":\"markdown9_el130006502189\",\"id\":\"markdown1386_el326294840350\",\"label\":\"Markdown10\",\"value\":\"> ##### Ap info\"},\"elements\":[]}]}]}]},{\"element\":\"tabs\",\"data\":{\"name\":\"tabs104_el548089813353\",\"id\":\"tabs211_el624992218480\",\"label\":\"Tabs104\"},\"elements\":[{\"element\":\"Tab\",\"data\":{\"name\":\"tab_el263392747748\",\"id\":\"tab_el263392747748\",\"label\":\"Tab 1\",\"droppable\":true,\"draggable\":false},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"input4_el74141685306\",\"id\":\"input8_el705776692304\",\"label\":\"Input4\"},\"key\":\"input4_el74141685306\",\"designer\":true,\"has_title\":true,\"is_writable\":true,\"elements\":[]},{\"element\":\"button\",\"data\":{\"name\":\"button26_el305471907929\",\"id\":\"button28_el295157846919\",\"label\":\"Button26\"},\"elements\":[]}]},{\"element\":\"Tab\",\"data\":{\"name\":\"tab_el465143661052\",\"id\":\"tab_el465143661052\",\"label\":\"Tab 2\",\"droppable\":true,\"draggable\":false},\"elements\":[]},{\"data\":{\"name\":\"tab_el1343531503421\",\"id\":\"tab_el1343531503421\",\"label\":\"Tab 3\",\"droppable\":true,\"draggable\":false},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"input31_el719362393440\",\"id\":\"input9_el185012075895\",\"label\":\"Input31\"},\"key\":\"input31_el719362393440\",\"designer\":true,\"has_title\":true,\"elements\":[]}]},{\"data\":{\"name\":\"tab_el76238873002\",\"id\":\"tab_el76238873002\",\"label\":\"Tab 4\",\"droppable\":true,\"draggable\":false},\"elements\":[{\"element\":\"input\",\"data\":{\"name\":\"input22_el905957198499\",\"id\":\"input22_el905957198499\",\"label\":\"Input22\"},\"key\":\"input22_el905957198499\",\"designer\":true,\"has_title\":true,\"elements\":[]}]}]}]",
+      "search_fields": "",
+      "title_fields": "",
+      "deleted_at": null
+    },
+    "Customer": {
+      "name": "Customer",
+      "module": "Test App",
+      "type": "Document",
+      "is_single": 0,
+      "is_static": 0,
+      "doc_structure": "[{\"element\":\"card\",\"data\":{\"label\":\"Customer Info\",\"name\":\"card1_el359102747101\"},\"key\":\"card1_el359102747101\",\"designer\":true,\"has_title\":true,\"elements\":[{\"element\":\"row\",\"data\":{\"name\":\"row1_el235795996507\",\"id\":\"row1_el235795996507\",\"label\":\"Row1\"},\"key\":\"row1_el235795996507\",\"designer\":true,\"has_title\":true,\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col3_el1117875846825\",\"id\":\"col3_el1117875846825\",\"label\":\"Col3\"},\"key\":\"col3_el1117875846825\",\"designer\":true,\"has_title\":true,\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Name\",\"name\":\"name\",\"required\":1,\"unique\":1,\"set_only_time\":1,\"in_list_view\":1,\"type\":\"text\",\"id\":\"input579_el5527387327\"},\"key\":\"input3744_el121687947145\",\"designer\":true,\"has_title\":true,\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col4_el930323265277\",\"id\":\"col4_el930323265277\",\"label\":\"Col4\"},\"key\":\"col4_el930323265277\",\"designer\":true,\"has_title\":true,\"elements\":[{\"element\":\"input\",\"data\":{\"label\":\"Last Name\",\"name\":\"last_name\",\"in_list_view\":1,\"id\":\"input585_el84194395811\"},\"key\":\"input3775_el877066531767\",\"designer\":true,\"has_title\":true,\"elements\":[]}]}]},{\"element\":\"tabs\",\"data\":{\"name\":\"tabs1_el132497623647\",\"id\":\"tabs1_el132497623647\",\"label\":\"Tabs1\"},\"key\":\"tabs1_el132497623647\",\"designer\":true,\"has_title\":true,\"elements\":[{\"data\":{\"label\":\"Address\",\"name\":\"tab_el1193088967457\",\"droppable\":1},\"elements\":[{\"element\":\"textarea\",\"data\":{\"label\":\"Address\",\"name\":\"address\",\"id\":\"textarea172_el490866081560\"},\"key\":\"textarea1208_el771666529340\",\"designer\":true,\"has_title\":true,\"elements\":[],\"is_writable\":true}]},{\"data\":{\"label\":\"Work\",\"name\":\"tab_el282951550498\",\"droppable\":1},\"elements\":[{\"element\":\"row\",\"data\":{\"name\":\"row1_el678385144475\",\"id\":\"row1_el678385144475\",\"label\":\"Row1\"},\"key\":\"row1_el678385144475\",\"designer\":true,\"has_title\":true,\"elements\":[{\"element\":\"col\",\"data\":{\"name\":\"col2_el76088029449\",\"id\":\"col2_el76088029449\",\"label\":\"Col2\"},\"key\":\"col2_el76088029449\",\"designer\":true,\"has_title\":true,\"is_writable\":false,\"elements\":[{\"element\":\"date\",\"data\":{\"label\":\"Contrated\",\"name\":\"contrated\",\"id\":\"date198_el1637880586140\",\"value\":\"2023-05-21\"},\"key\":\"date1_el1147619137597\",\"designer\":true,\"has_title\":true,\"elements\":[]}]},{\"element\":\"col\",\"data\":{\"name\":\"col1_el55865922389\",\"id\":\"col1_el55865922389\",\"label\":\"Col1\"},\"key\":\"col1_el55865922389\",\"designer\":true,\"has_title\":true,\"elements\":[{\"element\":\"date\",\"data\":{\"label\":\"Registered\",\"name\":\"registered\",\"id\":\"date200_el237626573442\",\"value\":\"2023-05-21\"},\"key\":\"date35_el135206900789\",\"designer\":true,\"has_title\":true,\"elements\":[]}],\"is_writable\":false}]}]},{\"data\":{\"label\":\"Notes\",\"name\":\"tab_el535675773788\",\"droppable\":1},\"elements\":[{\"element\":\"textarea\",\"data\":{\"label\":\"Notes\",\"name\":\"notes\",\"id\":\"textarea174_el1270844732319\"},\"key\":\"textarea353_el759203356239\",\"designer\":true,\"has_title\":true,\"elements\":[]}]}]}]},{\"element\":\"date_time\",\"is_writeable\":true,\"data\":{\"name\":\"deleted_at\",\"label\":\"Deleted At\",\"hidden\":1},\"elements\":[]}]",
+      "search_fields": "name",
+      "title_fields": "name",
+      "deleted_at": null
     }
   }
 }
